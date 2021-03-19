@@ -22,5 +22,10 @@ public class EmpConfig {
 		Employee emp = new Employee();
 		return emp;
 	}
+
+	@Bean
+	public Address address(){
+		return new Address();
+	}
 	
 }
